@@ -1,6 +1,25 @@
-text = "Banana and Mango"
-num_a = text.count("a")
-print(num_a)
+
+# Write a function that checks if any two consecutive words in a given string share a common substring of at least two characters. The check should be case-insensitive.
+
+# Requirements:
+# The function should return True if any two consecutive words have at least one overlapping substring of 2 or more characters.
+# If no consecutive words share such a substring, return False.
+# Ignore differences in case (e.g., "House" and "housekeeper" should still match).
+# The function should handle edge cases (empty strings, single-word inputs, etc.).
+    
+def sub_check(string):
+    new_list = string.lower().split()
+    n=0
+    for word in new_list:
+        return new_list[n] in new_list[n+1] or new_list[n+1] in new_list[n]
+    n += 1 
+            
+        
+
+
+# text = "Banana and Mango"
+# num_a = text.count("a")
+# print(num_a)
 # -------------
 
 # Repeat strings (8 kyu)
