@@ -1,0 +1,13 @@
+This is a great set of meta tags for a website
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="enter keywords here">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+
+
+href tags should always show a target, otherwise the link will open in the same window.

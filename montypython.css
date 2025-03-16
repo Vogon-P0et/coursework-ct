@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(43, 222, 130);
+    text-shadow: 1px 1px, rgb(80, 255, 80);
+    margin-bottom: 40px;
+    
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.shrubbery {
+    color: brown;
+    border-radius: 12px;
+    border-style: dotted;
+    justify-content: center;
+}
